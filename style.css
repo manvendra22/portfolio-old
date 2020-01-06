@@ -55,3 +55,8 @@
     cursor: pointer;
     border: 3px solid green
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
