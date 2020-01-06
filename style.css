@@ -1,0 +1,22 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FBFF;
+    color: #B9F5D8;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.greeting {
+    min-height: 200px;
+    width: 700px;
+    padding: 20px;
+    background-color: #D9FFF5;
+    color: #757575;
+    border: 3px dashed #757575;
+    border-radius: 15px;
+    text-align: left;
+}
