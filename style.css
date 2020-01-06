@@ -20,6 +20,7 @@
     border: 3px dashed #757575;
     border-radius: 15px;
     text-align: left;
+    /* transition: all 0.3s ease-out; */
 }
 
 .text {
@@ -41,7 +42,12 @@
 
 .box-container {
     display: flex;
-    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 40px;
+    justify-content: flex-end;
 }
 
 .box {
@@ -53,7 +59,9 @@
 
 .box:hover {
     cursor: pointer;
-    border: 3px solid green
+    border: 3px solid green;
+    color: green;
+    background-color: #D9FFF5;
 }
 
 a {
