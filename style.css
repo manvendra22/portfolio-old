@@ -5,13 +5,14 @@
     justify-content: center;
     align-items: center;
     background-color: #F8FBFF;
-    color: #B9F5D8;
-    font-size: 22px;
+    color: #58B695;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 .greeting {
-    min-height: 200px;
+    display: flex;
+    min-height: 300px;
     width: 700px;
     padding: 20px;
     background-color: #D9FFF5;
@@ -19,4 +20,38 @@
     border: 3px dashed #757575;
     border-radius: 15px;
     text-align: left;
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.box-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box {
+    border: 3px solid #58B695;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+    border: 3px solid green
 }
