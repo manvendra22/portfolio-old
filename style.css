@@ -9,11 +9,15 @@
 }
 
 .greeting {
-    display: flex;
+    /* display: flex; */
     min-height: 200px;
     width: 700px;
     padding: 20px;
     text-align: left;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .card {
@@ -41,8 +45,28 @@
 }
 
 .skill {
+    background: #29292e;
     font-size: 16px;
-    color: rgb(153, 153, 153);
+    color: #eff0f9;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.code-1 {
+    color: #a6e22e
+}
+
+.code-2 {
+    color: #f92672;
+}
+
+.code-3 {
+    color: #66d9ef
+}
+
+.code-4 {
+    color: #ae81ff
 }
 
 .avatar {
@@ -53,7 +77,8 @@
 }
 
 .text {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .navbar {
