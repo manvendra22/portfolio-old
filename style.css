@@ -45,7 +45,8 @@
 }
 
 .skill {
-    background: #29292e;
+    /* background: #29292e; */
+    background: rgb(40, 44, 52);;
     font-size: 16px;
     color: #eff0f9;
     margin: 30px 0;
