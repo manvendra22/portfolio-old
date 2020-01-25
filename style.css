@@ -1,9 +1,9 @@
 *,
 *::after,
 *::before {
-   padding: 0;
-   margin: 0;
-   box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
 }
 
 body {
@@ -58,6 +58,18 @@ a {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px;
     transition: box-shadow 0.2s ease 0s;
 }
+
+/* .neu {
+    background: linear-gradient(145deg, #dfe0e1, #ffffff);
+    box-shadow: 30px 30px 60px #d3d4d5,
+        -30px -30px 60px #ffffff;
+} */
+
+/* .neu:hover {
+    background: linear-gradient(145deg, #dfe0e1, #ffffff);
+    box-shadow: 30px 30px 60px #d3d4d5,
+        -30px -30px 60px #ffffff;
+} */
 
 .card:hover {
     color: rgb(0, 0, 0);
@@ -125,17 +137,18 @@ a {
 }
 
 .navbar {
-    display: flex;
     position: fixed;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 25%;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
 }
 
-.left-btn {
-    margin-right: 20px;
+.top-btn {
+    margin-bottom: 20px;
 }
 
 .content {
@@ -156,6 +169,6 @@ a {
 }
 
 .title-container {
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
     padding: 20px;
 }
