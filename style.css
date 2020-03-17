@@ -200,5 +200,5 @@ a {
 
 .image_container:hover {
     color: rgb(0, 0, 0);
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px;
+    transform: translateY(-5px);
 }
