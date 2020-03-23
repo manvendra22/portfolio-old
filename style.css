@@ -196,6 +196,7 @@ a {
     z-index: 1;
     background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
     opacity: .5;
+    border-radius: 5%;
 }
 
 .image_container:hover {
